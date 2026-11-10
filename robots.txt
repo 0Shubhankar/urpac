@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://urpac.shubhankarsharma.com/sitemap.xml
