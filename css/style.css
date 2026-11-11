@@ -48,3 +48,30 @@ html{scroll-behavior:smooth}section[id],details[id]{scroll-margin-top:30px}.simp
     align-self: flex-start;
   }
 }
+
+
+/* URPAC mobile wordmark final spacing */
+@media (max-width: 767px) {
+  .studio-header.simple-header {
+    height: auto;
+    min-height: 0;
+    overflow: visible;
+  }
+
+  .studio-header .studio-wordmark {
+    display: inline-flex;
+    align-items: center;
+    line-height: 1.35;
+    padding-top: 0.12em;
+    padding-bottom: 0.28em;
+    height: auto;
+    min-height: 0;
+    overflow: visible;
+    flex-shrink: 0;
+  }
+
+  .studio-header .studio-wordmark .masthead-dot {
+    line-height: 1;
+    overflow: visible;
+  }
+}
