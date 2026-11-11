@@ -16,3 +16,35 @@
 html{scroll-behavior:smooth}section[id],details[id]{scroll-margin-top:30px}.simple-header{position:relative;z-index:2}.simple-nav{display:flex;gap:30px;font-size:12px}.simple-nav a{display:flex;align-items:center;gap:8px;padding:12px 0}.simple-nav a:last-child{border-bottom:1px solid var(--teal)}.expertise-index summary{padding-left:0}.expertise-expanded{padding-left:0}.expertise-expanded ul{list-style:none;padding:0}.expertise-expanded li{padding:8px 0;border-bottom:1px solid #c9d2c9}.process-line>div:before{display:none}.process-line h3{margin-top:10px}.founder-links{display:flex;flex-wrap:wrap;gap:25px}.founder-mark{font-size:100px}.contact-simple{background:#dfe5e2;display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.contact-simple>div>p{max-width:430px}.contact-caption{font-size:10px;margin-top:16px}.footer-notices{display:flex;flex-wrap:wrap;gap:20px;padding-top:25px}.footer-notices details{flex:1;min-width:220px}.footer-notices summary{cursor:pointer;font-size:11px}.footer-notices p{font-size:11px;max-width:500px;margin:15px 0}.footer-notices summary::marker{color:var(--teal)}
 @media(max-width:760px){.simple-header{height:auto;min-height:125px;flex-wrap:wrap;padding:20px 6%;gap:15px}.simple-nav{gap:22px;width:100%;justify-content:space-between;font-size:11px}.simple-nav a{padding:0 0 8px}.contact-simple{grid-template-columns:1fr;gap:15px}.founder-links{gap:12px}.founder-mark{font-size:90px}.expertise-expanded{padding-left:0}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+
+/* URPAC mobile hero heading correction */
+@media (max-width: 767px) {
+  .studio-hero h1 {
+    line-height: 1.13;
+    padding-bottom: 0.15em;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+  }
+}
+
+
+/* URPAC mobile wordmark clipping fix */
+@media (max-width: 767px) {
+  .studio-header .studio-wordmark {
+    display: inline-flex;
+    align-items: center;
+    line-height: 1.25;
+    height: auto;
+    max-height: none;
+    padding-top: 0.06em;
+    padding-bottom: 0.14em;
+    overflow: visible;
+  }
+
+  .studio-header .studio-wordmark span {
+    line-height: 1;
+    align-self: flex-start;
+  }
+}
